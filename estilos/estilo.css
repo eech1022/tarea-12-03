@@ -1,0 +1,107 @@
+.principal{
+    background-color: red;
+    padding: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.Acaja{
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    width: 600px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+
+}
+.Bcaja{
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    width: 31%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.cajaA{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.cajaB{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja1{
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+.Ccaja{
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    width: 31%;
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.caja2a{
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+    width: 600px;
+    height: 200px;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: 3;
+    
+}
+.caja2b{
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
